@@ -14,6 +14,7 @@ h1{
   margin: 10px;
   font-size: 24pt;
   font-family: serif;
+  font-size: 2rem;
 }
 span{
   text-shadow: 2px -2px grey ;
@@ -35,6 +36,7 @@ p{
   margin: 0px;
   text-align: center;
   color: whitesmoke;
+  font-size: 1rem;
 }
 .dice{
     height: 200px;
