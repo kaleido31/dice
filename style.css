@@ -90,3 +90,10 @@ p{
 .firstBottomRight, .secondBottomRight{
   grid-area: 3/3/4/4;
 }
+@media (max-width:600px){
+h1{
+  font-size: 4rem;
+}
+p{
+  font-size: 2rem;
+}
