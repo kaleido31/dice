@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <img
+        src="./images/Picture1.jpg"
+        alt="dice image"
+        height="50px"
+        width="50px"
+        style="padding: 5px"
+      />
+      <h1>
+        ROLL IT
+        <span style="font-family: 'Courier New', Courier, monospace"
+          >DIGGA!!!</span
+        >
+      </h1>
+    </div>
+
+    <div class="main">
+      <div class="diceContainer">
+        <!-- First Dice -->
+        <div class="dice">
+          <div class="dotParent firstTopLeft">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent firstMiddleLeft">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent firstBottomLeft">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent middle firstMiddle hidden">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent firstTopRight">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent firstMiddleRight">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent firstBottomRight">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <!-- Second Dice -->
+
+        <div class="dice">
+          <div class="dotParent secondTopLeft">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent secondMiddleLeft">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent secondBottomLeft">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent middle secondMiddle hidden">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent secondTopRight">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent secondMiddleRight">
+            <div class="dot"></div>
+          </div>
+          <div class="dotParent secondBottomRight">
+            <div class="dot"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rollAndResetBtn">
+        <button class="rollBtn" onclick="roll()">Roll</button>
+        <button class="resetBtn" onclick="reset()">Reset</button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        Copyright© Kaleido <br />
+        Image Credits : <a href="wwwfreepik.com">Freepik</a>
+      </p>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
